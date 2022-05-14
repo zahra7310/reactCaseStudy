@@ -1,0 +1,46 @@
+.confirmWrapper{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.116);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.confirmDialog{
+    background-color: #f1f1f1;
+    padding: 1em;
+    color: #000;
+    min-width: 30%;
+}
+.title{
+    margin-top: 15px;
+}
+.body{
+    padding:0 0 20px 0;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8;
+}
+.footer > button{
+    padding: 10px 20px;
+    background-color: #ddd;
+    margin: 5px 3px;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+.closeDialog{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center ;
+
+}
+.closeDialog span{
+    color: #3b3a3a;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.bacepage{
+    text-align: left;
+    font-size: 30px;
+    padding: 16px 0;
+    border-bottom: 2px solid red;
+}
+.container-wraper{
+    width:1150px;
+    margin: auto;
+    padding: 15px;
+}

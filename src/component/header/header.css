@@ -1,0 +1,42 @@
+.container{
+    width:1150px;
+    margin: auto;
+    padding: 20px;
+}
+.header{
+    background-color: #ddd;
+    border-bottom: 1px solid #888;
+    width: 100%;
+    padding-top: 100px;
+}
+.header h1{
+    text-align: center;
+}
+
+.header .nav{
+    width: 100%;
+    background-color: darkred;
+    display: flex;
+    height: 53px;
+    align-items: center;
+}
+
+.header .nav ul{
+ list-style-type: none;
+ width: 100%;
+}
+.header .nav ul li a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 15px 16px;
+    text-decoration: none;
+    
+}
+.nav ul li a:hover{
+    background-color:  darkmagenta;;
+}
+.nav ul li a.active{
+    background-color: darkmagenta;
+    color:white;
+}

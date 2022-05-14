@@ -1,0 +1,59 @@
+.user-table {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 2fr 0.75fr;
+  gap: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 4px 2px #ccc;
+  text-align: left;
+
+}
+
+.user-table .title-table {
+  background-color: #555;
+  color: #fff;
+  padding: 1em;
+}
+
+.user-table .title-data {
+  background-color: #f5f5f5;
+  color: #888;
+  padding: 0.5em 1em;
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.new {
+  padding: 15px 20px;
+  background-color: lightgreen;
+  color: #222;
+  text-decoration: none;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.title-data.action-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-data span {
+  border: none;
+  outline: none;
+  color: #222;
+  font-size: 23px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.action-data button {
+  border: none;
+  background-color: inherit;
+}
+
+.action-data span:hover {
+  background-color: #ccc;
+}

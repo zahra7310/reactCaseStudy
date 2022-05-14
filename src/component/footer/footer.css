@@ -1,0 +1,9 @@
+.footer{
+ background-color: #cccccc;
+ border-top: 1px solid #222;
+ color: rgb(7, 7, 7);
+ padding: 16px;
+}
+.footer h1{
+    text-align: center;
+}
